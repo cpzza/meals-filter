@@ -1,0 +1,67 @@
+header {
+  font-family: "SuperGroteskBold", "Futura", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #fff;
+}
+.banner h2, .banner p {
+  width: 60vw;
+  margin: 0 auto;
+}
+h2 {
+  margin-top: 60px;
+  font-size: 1.5rem;
+}
+p {
+  font-family: "Acta Display", "Garamond", serif;
+  line-height: 1.25;
+}
+nav {
+  width: 100vw;
+  position: fixed;
+  background-color: #fff;
+  z-index: 2;
+}
+.logo {
+  background-image: url("https://territory-assets.s3.amazonaws.com/logos/territory-wordmark-dark-60@2x.png");
+  display: block;
+  width: 147px;
+  height: 60px;
+  visibility: visible;
+  opacity: 1;
+  margin: 0 auto;
+  background-size: 147px 60px;
+  -webkit-transition: all 0.22s ease-in-out;
+  transition: all 0.22s ease-in-out;
+  background-color: white;
+}
+.banner {
+  flex-direction: column;
+  background-image: url('https://territory-assets.s3.amazonaws.com/static/home_page/homepage_header_mobile@2x.jpg');
+  width: 100vw;
+  height: 90vw;
+  display: flex;
+  justify-content: center;
+  background-size: contain;
+  background-attachment: fixed;
+}
+@media screen and (min-width: 576px) {
+  h2 {
+    font-size: 2.25rem;
+    margin-top: 3rem;
+  }
+  .banner {
+    background-image:url("https://territory-assets.s3.amazonaws.com/static/home_page/homepage_header_@2x.jpg");
+    height: 36vw;
+  }
+}
+@media screen and (min-width: 1024px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+  p {
+    line-height: 2;
+  }
+}

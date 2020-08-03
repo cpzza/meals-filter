@@ -1,0 +1,31 @@
+footer {
+  text-align: center;
+  min-height: 5vh;
+}
+.company-name {
+  font-family: "Super Grotesk Pro Bold", "Futura", "Helvetica Neue", sans-serif;
+  color: #000;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+}
+.logoIcon {
+  height: 90px;
+  width: 90px;
+  margin: 0 auto;
+}
+.footerCopy {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+  footer {
+    text-align: left;
+  }
+  .logoIcon {
+    float: left;
+  }
+}
