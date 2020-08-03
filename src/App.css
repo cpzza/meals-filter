@@ -1,0 +1,58 @@
+* {box-sizing: border-box;}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #fff;
+  color: #333335;
+  font-family: "Acta Display", "Garamond", serif;
+  font-variant-ligatures: none;
+  font-weight: 300;
+  margin: 0;
+}
+h2, h3 {
+  font-family: "Super Grotesk Pro Bold", "Futura", "Helvetica Neue", sans-serif;
+  font-size: 2.4rem;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+}
+.text {
+  font-family: "Super Grotesk Pro Bold", "Futura", "Helvetica Neue", sans-serif;
+  padding: 4px;
+}
+ul {
+  list-style: none;
+}
+.meal {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  margin: 0.5rem;
+}
+.description {
+  width: 100vw;
+  padding-top: 3rem;
+  text-align: center;
+}
+.finePrint {
+  font-size: 65%;
+}
+.mealResults {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  min-height: 24rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 769px) {
+  .mealResults {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.item {
+  background-color: white !important;
+}
+.filter {
+  background-color: gray;
+  padding: 4px;
+  margin: 3px;
+  border-radius: 2px;
+}
