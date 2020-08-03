@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Super Grotesk Pro';
+  src: url('assets/fonts/FontFont - SuperGroteskPro.otf');
+  src: local('Super Grotesk Pro') url('assets/fonts/FontFont - SuperGroteskPro.otf') format('opentype');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Super Grotesk Pro Bold';
+  src: url('assets/fonts/FontFont - SuperGroteskPro-Bold.otf');
+  src: local('Super Grotesk Pro Bold') url('assets/fonts/FontFont - SuperGroteskPro-Bold.otf') format('opentype');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Acta Display';
+  src: url('assets/fonts/DSType - Acta-Medium.otf');
+  src: local('Acta Display') url('assets/fonts/DSType - Acta-Medium.otf') format('opentype');
+  font-style: normal;
+  font-weight: normal;
+}
